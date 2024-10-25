@@ -65,9 +65,9 @@ public class Program
         Menu restaurantMenu = new Menu();
 
         // Add some menu items
-        restaurantMenu.AddItem(new MenuItem("Bruschetta", 7.99m, "Grilled bread with tomatoes, garlic, and basil. Made in 10/23/24. ", "Appetizer", true));
-        restaurantMenu.AddItem(new MenuItem("Spaghetti Carbonara", 12.99m, "Pasta with creamy sauce, pancetta, and parmesan. Made in 6/23/21. ", "Main Course", false));
-        restaurantMenu.AddItem(new MenuItem("Chocolate Lava Cake", 5.99m, "Warm chocolate cake with a gooey center. Made in 9/25/24. ", "Dessert", true));
+        restaurantMenu.AddItem(new MenuItem("Bruschetta", 7.99m, "Grilled bread with tomatoes, garlic, and basil. Designed in 10/23/24. ", "Appetizer", true));
+        restaurantMenu.AddItem(new MenuItem("Spaghetti Carbonara", 12.99m, "Pasta with creamy sauce, pancetta, and parmesan. Designed in 6/23/21. ", "Main Course", false));
+        restaurantMenu.AddItem(new MenuItem("Chocolate Lava Cake", 5.99m, "Warm chocolate cake with a gooey center. Designed in 9/25/24. ", "Dessert", true));
 
         // Display the menu
         restaurantMenu.DisplayMenu();
